@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 809382108
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: tileasset.unity3d
+      Dependencies: {}

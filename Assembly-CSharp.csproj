@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{955BE9E4-9553-54F5-EC7D-D20A861971DC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_3_0;UNITY_2017_3;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Anima2D\Examples\Scripts\CharacterMotion.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\Follow.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SkinnedMeshCombiner.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SpringBone.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SpringCollider.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SpringManager.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SpriteCycle.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SpriteCycleParallax.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\Bone2D.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\Control.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\EditorUpdaterProxy.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\Ik2D.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkCCD2D.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkGroup.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkLimb2D.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkSolver2D.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkSolver2DCCD.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkSolver2DLimb.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\MathUtils.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\Pose.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\PoseManager.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\SpriteMesh.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\SpriteMeshAnimation.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\SpriteMeshInstance.cs" />
+     <Compile Include="Assets\HOTween\_Demo\HOTweenDemoBrain.cs" />
+     <Compile Include="Assets\Script\App\Controller\Battle\CBattleCharacterPreviewDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\Battle\CBattleFailDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\Battle\CBattlefield.cs" />
+     <Compile Include="Assets\Script\App\Controller\Battle\CBattlefieldEvent.cs" />
+     <Compile Include="Assets\Script\App\Controller\Battle\CBattleListDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\Battle\CBattleMenuDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\Battle\CBattleSkillListDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\Battle\CBattleWinDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\Battle\CBoutWaveDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\CAlertDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\CArea.cs" />
+     <Compile Include="Assets\Script\App\Controller\CBuildingDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\CConfirmDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\CConnectingDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\Character\CCharacterDetailDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\Character\CCharacterListDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\CItemListDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\CLoadingDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\CLogo.cs" />
+     <Compile Include="Assets\Script\App\Controller\CMessageDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\Common\CBase.cs" />
+     <Compile Include="Assets\Script\App\Controller\Common\CBaseMap.cs" />
+     <Compile Include="Assets\Script\App\Controller\Common\CBaseMapScript.cs" />
+     <Compile Include="Assets\Script\App\Controller\Common\CContentsConfirmDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\Common\CDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\Common\CScene.cs" />
+     <Compile Include="Assets\Script\App\Controller\Common\CSingleDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\Common\Request.cs" />
+     <Compile Include="Assets\Script\App\Controller\CPresentBoxDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\CReadyBattleDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\CStage.cs" />
+     <Compile Include="Assets\Script\App\Controller\CTalkDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\CTop.cs" />
+     <Compile Include="Assets\Script\App\Controller\CTutorialDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\CWorld.cs" />
+     <Compile Include="Assets\Script\App\Controller\Equipment\CEquipmentListDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\Gacha\CGachaDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\Gacha\CGachaResultDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\LoginBonus\CLoginBonusDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\LoginBonus\CLoginBonusGetDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\Mission\CMissionDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\Register\CRegister.cs" />
+     <Compile Include="Assets\Script\App\Controller\Register\CRegisterConfirmDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\Shop\CShopDialog.cs" />
+     <Compile Include="Assets\Script\App\Controller\Webview\CWebviewDialog.cs" />
+     <Compile Include="Assets\Script\App\Model\Avatar\Arms.cs" />
+     <Compile Include="Assets\Script\App\Model\Avatar\AvatarAction.cs" />
+     <Compile Include="Assets\Script\App\Model\Avatar\AvatarAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Avatar\AvatarProperty.cs" />
+     <Compile Include="Assets\Script\App\Model\Avatar\MoveArms.cs" />
+     <Compile Include="Assets\Script\App\Model\Battle\MDamageParam.cs" />
+     <Compile Include="Assets\Script\App\Model\Battle\MExpCharacter.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MArea.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MBaseMap.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MBattlefield.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MBattleNpc.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MBattleOwn.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MBuilding.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MCharacter.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MCharacterSkill.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MCharacterStar.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MConstant.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MEquipment.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MExp.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MGacha.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MGachaChild.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MGachaPrice.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MItem.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MLoginBonus.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MMission.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MNpc.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MNpcEquipment.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MShopItem.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MSkill.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MSkillEffect.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MSkillEffects.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MStrategy.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MTile.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MWord.cs" />
+     <Compile Include="Assets\Script\App\Model\Master\MWorld.cs" />
+     <Compile Include="Assets\Script\App\Model\MBase.cs" />
+     <Compile Include="Assets\Script\App\Model\MBaseMap.cs" />
+     <Compile Include="Assets\Script\App\Model\MBattleChild.cs" />
+     <Compile Include="Assets\Script\App\Model\MBattlefield.cs" />
+     <Compile Include="Assets\Script\App\Model\MBuilding.cs" />
+     <Compile Include="Assets\Script\App\Model\MCharacter.cs" />
+     <Compile Include="Assets\Script\App\Model\MCharacterAbility.cs" />
+     <Compile Include="Assets\Script\App\Model\MContent.cs" />
+     <Compile Include="Assets\Script\App\Model\MEquipment.cs" />
+     <Compile Include="Assets\Script\App\Model\MGacha.cs" />
+     <Compile Include="Assets\Script\App\Model\MItem.cs" />
+     <Compile Include="Assets\Script\App\Model\MLoginBonus.cs" />
+     <Compile Include="Assets\Script\App\Model\MMission.cs" />
+     <Compile Include="Assets\Script\App\Model\MPresent.cs" />
+     <Compile Include="Assets\Script\App\Model\MPrice.cs" />
+     <Compile Include="Assets\Script\App\Model\MSkill.cs" />
+     <Compile Include="Assets\Script\App\Model\MTile.cs" />
+     <Compile Include="Assets\Script\App\Model\MTopMap.cs" />
+     <Compile Include="Assets\Script\App\Model\MUser.cs" />
+     <Compile Include="Assets\Script\App\Model\MVersion.cs" />
+     <Compile Include="Assets\Script\App\Model\MWorldMap.cs" />
+     <Compile Include="Assets\Script\App\Model\Scenario\MScenario.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\AreaAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\AssetBase.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\AvatarSpriteAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\BaseMapAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\BattlefieldAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\BuildingAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\CharacterAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\CharacterStarAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\ClothesAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\ConstantAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\EffectAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\ExpAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\FaceAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\GachaAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\HorseAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\ItemAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\LanguageAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\LoginBonusAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\MissionAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\NpcAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\NpcEquipmentAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\PromptMessageAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\ScenarioAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\ShopAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\SkillAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\StoryProgressAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\StrategyAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\TileAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\TutorialAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\WeaponAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\WordAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Scriptable\WorldAsset.cs" />
+     <Compile Include="Assets\Script\App\Model\Shop\MShopItem.cs" />
+     <Compile Include="Assets\Script\App\Service\HttpClient.cs" />
+     <Compile Include="Assets\Script\App\Service\ResponseBase.cs" />
+     <Compile Include="Assets\Script\App\Service\SBase.cs" />
+     <Compile Include="Assets\Script\App\Service\SBattlefield.cs" />
+     <Compile Include="Assets\Script\App\Service\SCharacter.cs" />
+     <Compile Include="Assets\Script\App\Service\SEquipment.cs" />
+     <Compile Include="Assets\Script\App\Service\SGacha.cs" />
+     <Compile Include="Assets\Script\App\Service\SItem.cs" />
+     <Compile Include="Assets\Script\App\Service\SLoginBonus.cs" />
+     <Compile Include="Assets\Script\App\Service\SMaster.cs" />
+     <Compile Include="Assets\Script\App\Service\SMission.cs" />
+     <Compile Include="Assets\Script\App\Service\SPresent.cs" />
+     <Compile Include="Assets\Script\App\Service\SRegister.cs" />
+     <Compile Include="Assets\Script\App\Service\SShop.cs" />
+     <Compile Include="Assets\Script\App\Service\SSkill.cs" />
+     <Compile Include="Assets\Script\App\Service\SUser.cs" />
+     <Compile Include="Assets\Script\App\UGUI\UGImage.cs" />
+     <Compile Include="Assets\Script\App\UGUI\UGText.cs" />
+     <Compile Include="Assets\Script\App\Util\Battle\BattleCalculateManager.cs" />
+     <Compile Include="Assets\Script\App\Util\Battle\BattleCharactersManager.cs" />
+     <Compile Include="Assets\Script\App\Util\Battle\BattleManager.cs" />
+     <Compile Include="Assets\Script\App\Util\Battle\BattleTilesManager.cs" />
+     <Compile Include="Assets\Script\App\Util\Battle\CharacterAI.cs" />
+     <Compile Include="Assets\Script\App\Util\BuyManager.cs" />
+     <Compile Include="Assets\Script\App\Util\Cacher\AreaCacher.cs" />
+     <Compile Include="Assets\Script\App\Util\Cacher\BaseMapCacher.cs" />
+     <Compile Include="Assets\Script\App\Util\Cacher\BattlefieldCacher.cs" />
+     <Compile Include="Assets\Script\App\Util\Cacher\BuildingCacher.cs" />
+     <Compile Include="Assets\Script\App\Util\Cacher\CacherBase.cs" />
+     <Compile Include="Assets\Script\App\Util\Cacher\CharacterCacher.cs" />
+     <Compile Include="Assets\Script\App\Util\Cacher\CharacterStarCacher.cs" />
+     <Compile Include="Assets\Script\App\Util\Cacher\EquipmentCacher.cs" />
+     <Compile Include="Assets\Script\App\Util\Cacher\ExpCacher.cs" />
+     <Compile Include="Assets\Script\App\Util\Cacher\FaceCacher.cs" />
+     <Compile Include="Assets\Script\App\Util\Cacher\GachaCacher.cs" />
+     <Compile Include="Assets\Script\App\Util\Cacher\ItemCacher.cs" />
+     <Compile Include="Assets\Script\App\Util\Cacher\LoginBonusCacher.cs" />
+     <Compile Include="Assets\Script\App\Util\Cacher\MissionCacher.cs" />
+     <Compile Include="Assets\Script\App\Util\Cacher\NpcCacher.cs" />
+     <Compile Include="Assets\Script\App\Util\Cacher\NpcEquipmentCacher.cs" />
+     <Compile Include="Assets\Script\App\Util\Cacher\ShopCacher.cs" />
+     <Compile Include="Assets\Script\App\Util\Cacher\SkillCacher.cs" />
+     <Compile Include="Assets\Script\App\Util\Cacher\StrategyCacher.cs" />
+     <Compile Include="Assets\Script\App\Util\Cacher\TileCacher.cs" />
+     <Compile Include="Assets\Script\App\Util\Cacher\UserCacher.cs" />
+     <Compile Include="Assets\Script\App\Util\FullScreen.cs" />
+     <Compile Include="Assets\Script\App\Util\Global.cs" />
+     <Compile Include="Assets\Script\App\Util\ImageAssetBundleManager.cs" />
+     <Compile Include="Assets\Script\App\Util\Language.cs" />
+     <Compile Include="Assets\Script\App\Util\LSharp\LSharpBase.cs" />
+     <Compile Include="Assets\Script\App\Util\LSharp\LSharpBattle.cs" />
+     <Compile Include="Assets\Script\App\Util\LSharp\LSharpCharacter.cs" />
+     <Compile Include="Assets\Script\App\Util\LSharp\LSharpFunction.cs" />
+     <Compile Include="Assets\Script\App\Util\LSharp\LSharpIf.cs" />
+     <Compile Include="Assets\Script\App\Util\LSharp\LSharpLoad.cs" />
+     <Compile Include="Assets\Script\App\Util\LSharp\LSharpMessage.cs" />
+     <Compile Include="Assets\Script\App\Util\LSharp\LSharpScreen.cs" />
+     <Compile Include="Assets\Script\App\Util\LSharp\LSharpScript.cs" />
+     <Compile Include="Assets\Script\App\Util\LSharp\LSharpTalk.cs" />
+     <Compile Include="Assets\Script\App\Util\LSharp\LSharpTutorial.cs" />
+     <Compile Include="Assets\Script\App\Util\LSharp\LSharpVarlable.cs" />
+     <Compile Include="Assets\Script\App\Util\LSharp\LSharpWait.cs" />
+     <Compile Include="Assets\Script\App\Util\SceneManager.cs" />
+     <Compile Include="Assets\Script\App\Util\Search\AStar.cs" />
+     <Compile Include="Assets\Script\App\Util\Search\BreadthFirst.cs" />
+     <Compile Include="Assets\Script\App\Util\Search\TileMap.cs" />
+     <Compile Include="Assets\Script\App\Util\SingleClass.cs" />
+     <Compile Include="Assets\Script\App\Util\WeaponManager.cs" />
+     <Compile Include="Assets\Script\App\View\Battlefield\VBattleCharacterPreview.cs" />
+     <Compile Include="Assets\Script\App\View\Battlefield\VBattleListChild.cs" />
+     <Compile Include="Assets\Script\App\View\Battlefield\VBattleSkillIcon.cs" />
+     <Compile Include="Assets\Script\App\View\Battlefield\VBout.cs" />
+     <Compile Include="Assets\Script\App\View\Battlefield\VOperatingMenu.cs" />
+     <Compile Include="Assets\Script\App\View\Battlefield\VStatusIcon.cs" />
+     <Compile Include="Assets\Script\App\View\Character\VAvatar.cs" />
+     <Compile Include="Assets\Script\App\View\Character\VCard.cs" />
+     <Compile Include="Assets\Script\App\View\Character\VCharacter.cs" />
+     <Compile Include="Assets\Script\App\View\Character\VCharacterAnimation.cs" />
+     <Compile Include="Assets\Script\App\View\Character\VCharacterBattlefieldEvent.cs" />
+     <Compile Include="Assets\Script\App\View\Character\VCharacterDetail.cs" />
+     <Compile Include="Assets\Script\App\View\Character\VCharacterGrade.cs" />
+     <Compile Include="Assets\Script\App\View\Character\VCharacterIcon.cs" />
+     <Compile Include="Assets\Script\App\View\Character\VCharacterSkill.cs" />
+     <Compile Include="Assets\Script\App\View\Character\VCharacterStatus.cs" />
+     <Compile Include="Assets\Script\App\View\Character\VExpCharacterIcon.cs" />
+     <Compile Include="Assets\Script\App\View\Character\VFace.cs" />
+     <Compile Include="Assets\Script\App\View\Character\VFaceSpriteRenderer.cs" />
+     <Compile Include="Assets\Script\App\View\Character\VRawFace.cs" />
+     <Compile Include="Assets\Script\App\View\Character\VSelectCharacterIcon.cs" />
+     <Compile Include="Assets\Script\App\View\Character\VSkillChild.cs" />
+     <Compile Include="Assets\Script\App\View\Character\VStatusChild.cs" />
+     <Compile Include="Assets\Script\App\View\Common\VBottomMenu.cs" />
+     <Compile Include="Assets\Script\App\View\Common\VContentsChild.cs" />
+     <Compile Include="Assets\Script\App\View\Common\VTweenAlpha.cs" />
+     <Compile Include="Assets\Script\App\View\Common\VTweenPosition.cs" />
+     <Compile Include="Assets\Script\App\View\Effect\VEffectAnimation.cs" />
+     <Compile Include="Assets\Script\App\View\Equipment\VCharacterEquipmentIcon.cs" />
+     <Compile Include="Assets\Script\App\View\Equipment\VEquipmentIcon.cs" />
+     <Compile Include="Assets\Script\App\View\Equipment\VEquipments.cs" />
+     <Compile Include="Assets\Script\App\View\Gacha\VGachaButton.cs" />
+     <Compile Include="Assets\Script\App\View\Gacha\VGachaChild.cs" />
+     <Compile Include="Assets\Script\App\View\Item\VItemDetail.cs" />
+     <Compile Include="Assets\Script\App\View\Item\VItemIcon.cs" />
+     <Compile Include="Assets\Script\App\View\LoginBonus\VLoginBonusChild.cs" />
+     <Compile Include="Assets\Script\App\View\Mission\VMissionChild.cs" />
+     <Compile Include="Assets\Script\App\View\Mission\VMissionRewardChild.cs" />
+     <Compile Include="Assets\Script\App\View\Present\VPresentChild.cs" />
+     <Compile Include="Assets\Script\App\View\Shop\VShopItemChild.cs" />
+     <Compile Include="Assets\Script\App\View\Skill\VSkillChild.cs" />
+     <Compile Include="Assets\Script\App\View\Top\VBuildingMenu.cs" />
+     <Compile Include="Assets\Script\App\View\Top\VCharacterContents.cs" />
+     <Compile Include="Assets\Script\App\View\Top\VHeaderTop.cs" />
+     <Compile Include="Assets\Script\App\View\Top\VStrengthenMenu.cs" />
+     <Compile Include="Assets\Script\App\View\Top\VTopFooterMenu.cs" />
+     <Compile Include="Assets\Script\App\View\VAreaMap.cs" />
+     <Compile Include="Assets\Script\App\View\VBase.cs" />
+     <Compile Include="Assets\Script\App\View\VBaseMap.cs" />
+     <Compile Include="Assets\Script\App\View\VBindText.cs" />
+     <Compile Include="Assets\Script\App\View\VBuildingChild.cs" />
+     <Compile Include="Assets\Script\App\View\VHeaderFace.cs" />
+     <Compile Include="Assets\Script\App\View\VTile.cs" />
+     <Compile Include="Assets\Script\App\View\VTopMap.cs" />
+     <Compile Include="Assets\Script\App\View\VWorldMap.cs" />
+     <Compile Include="Assets\Script\App\ViewModel\VMBase.cs" />
+     <Compile Include="Assets\Script\App\ViewModel\VMBaseMap.cs" />
+     <Compile Include="Assets\Script\App\ViewModel\VMBattleChild.cs" />
+     <Compile Include="Assets\Script\App\ViewModel\VMBattlefield.cs" />
+     <Compile Include="Assets\Script\App\ViewModel\VMBuilding.cs" />
+     <Compile Include="Assets\Script\App\ViewModel\VMCharacter.cs" />
+     <Compile Include="Assets\Script\App\ViewModel\VMCharacterAbility.cs" />
+     <Compile Include="Assets\Script\App\ViewModel\VMEquipment.cs" />
+     <Compile Include="Assets\Script\App\ViewModel\VMGacha.cs" />
+     <Compile Include="Assets\Script\App\ViewModel\VMGachaButton.cs" />
+     <Compile Include="Assets\Script\App\ViewModel\VMItem.cs" />
+     <Compile Include="Assets\Script\App\ViewModel\VMLoginBonus.cs" />
+     <Compile Include="Assets\Script\App\ViewModel\VMMission.cs" />
+     <Compile Include="Assets\Script\App\ViewModel\VMPresent.cs" />
+     <Compile Include="Assets\Script\App\ViewModel\VMProperty.cs" />
+     <Compile Include="Assets\Script\App\ViewModel\VMSkill.cs" />
+     <Compile Include="Assets\Script\App\ViewModel\VMTopMap.cs" />
+     <Compile Include="Assets\Script\App\ViewModel\VMUser.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\About.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\DataReaderProvider.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\DataWriterProvider.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\EcmaScriptIdentifier.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\EcmaScriptWriter.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\IDataReader.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\IDataWriter.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\IJsonSerializable.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\JsonDataReader.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\JsonDataWriter.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\JsonIgnoreAttribute.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\JsonMemberAttribute.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\JsonNameAttribute.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\JsonOptInAttribute.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\JsonReader.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\JsonReaderSettings.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\JsonSerializationException.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\JsonSpecifiedPropertyAttribute.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\JsonToken.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\JsonWriter.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\JsonWriterSettings.cs" />
+     <Compile Include="Assets\Script\Plugin\JsonFx\TypeCoercionUtility.cs" />
+     <Compile Include="Assets\Script\ShEditor\CharacterTest.cs" />
+     <Compile Include="Assets\Script\ShEditor\CMasterScene.cs" />
+     <Compile Include="Assets\Script\ShEditor\CSceneFaceMaker.cs" />
+     <Compile Include="Assets\Script\ShEditor\CTopScene.cs" />
+     <Compile Include="Assets\Script\ShEditor\EditorCoroutine.cs" />
+     <Compile Include="Assets\Script\ShEditor\FaceWindow.cs" />
+     <Compile Include="Assets\Script\ShEditor\MakeAtlas.cs" />
+     <Compile Include="Assets\Script\ShEditor\MAvatar.cs" />
+     <Compile Include="Assets\Script\ShEditor\SEditorMaster.cs" />
+     <Compile Include="Assets\UniWebView\Script\Helper\UniWebViewHelper.cs" />
+     <Compile Include="Assets\UniWebView\Script\UniWebView.cs" />
+     <Compile Include="Assets\UniWebView\Script\UniWebViewEdgeInsets.cs" />
+     <Compile Include="Assets\UniWebView\Script\UniWebViewMessage.cs" />
+     <Compile Include="Assets\UniWebView\Script\UniWebViewOrientation.cs" />
+     <Compile Include="Assets\UniWebView\Script\UniWebViewTransitionEdge.cs" />
+     <None Include="Assets\Script\Plugin\JsonFx\History.txt" />
+     <None Include="Assets\Shader\Sprites-Gray.shader" />
+     <None Include="Assets\HOTween\readme.txt" />
+     <None Include="Assets\Anima2D\Version.txt" />
+     <None Include="Assets\Shader\Custom-Clip.shader" />
+     <None Include="Assets\Script\Plugin\JsonFx\Readme.txt" />
+     <None Include="Assets\Script\Plugin\JsonFx\TODO.txt" />
+     <None Include="Assets\Anima2D\Examples\Shaders\Unlit-Alpha-Cull-off.shader" />
+     <None Include="Assets\Anima2D\Licenses.txt" />
+     <None Include="Assets\Anima2D\Examples\Shaders\VertexLitOneDirectional.shader" />
+     <None Include="Assets\Anima2D\Readme.txt" />
+     <None Include="Assets\Script\Plugin\JsonFx\License.txt" />
+ <Reference Include="Facebook.Unity.Settings">
+ <HintPath>/Users/zhanglubin/git/sh/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Timeline">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIAutomation">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.GoogleAudioSpatializer">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Facebook.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/Facebook/UnityEditor.Facebook.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="HOTween">
+ <HintPath>/Users/zhanglubin/git/sh/Assets/HOTween/Plugins/HOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="HOTweenV1_Editor">
+ <HintPath>/Users/zhanglubin/git/sh/Assets/HOTween/Plugins/Editor/HOTweenV1_Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Users/zhanglubin/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>/Users/zhanglubin/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Users/zhanglubin/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>/Users/zhanglubin/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Users/zhanglubin/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>/Users/zhanglubin/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>/Users/zhanglubin/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{AADB1E11-D442-8F66-9EE6-B318F8435379}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions xmlns="http://schemas.microsoft.com/developer/msbuild/2003"><MonoDevelop><Properties><Policies><TextStylePolicy inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-csharp" /><CSharpFormattingPolicy IndentSwitchBody="True" IndentBlocksInsideExpressions="True" AnonymousMethodBraceStyle="NextLine" PropertyBraceStyle="NextLine" PropertyGetBraceStyle="NextLine" PropertySetBraceStyle="NextLine" EventBraceStyle="NextLine" EventAddBraceStyle="NextLine" EventRemoveBraceStyle="NextLine" StatementBraceStyle="NextLine" ElseNewLinePlacement="NewLine" CatchNewLinePlacement="NewLine" FinallyNewLinePlacement="NewLine" WhileNewLinePlacement="DoNotCare" ArrayInitializerWrapping="DoNotChange" ArrayInitializerBraceStyle="NextLine" BeforeMethodDeclarationParentheses="False" BeforeMethodCallParentheses="False" BeforeConstructorDeclarationParentheses="False" NewLineBeforeConstructorInitializerColon="NewLine" NewLineAfterConstructorInitializerColon="SameLine" BeforeDelegateDeclarationParentheses="False" NewParentheses="False" SpacesBeforeBrackets="False" inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp" /></Policies></Properties></MonoDevelop></ProjectExtensions>
+
+</Project>

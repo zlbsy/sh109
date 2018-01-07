@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 9fd3c80f33efa400dae36a2d3ec4eb81
+timeCreated: 1490612003
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: TakeYourClothesOffWhenYouDance
+  fontNames:
+  - TakeYourClothesOffWhenYouDance
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
