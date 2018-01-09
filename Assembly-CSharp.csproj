@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{955BE9E4-9553-54F5-EC7D-D20A861971DC}</ProjectGuid>
+    <ProjectGuid>{2036862F-FB27-5B17-4FD0-15DC04B8FD30}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -229,11 +229,13 @@
      <Compile Include="Assets\Script\App\Service\SUser.cs" />
      <Compile Include="Assets\Script\App\UGUI\UGImage.cs" />
      <Compile Include="Assets\Script\App\UGUI\UGText.cs" />
+     <Compile Include="Assets\Script\App\Util\AppInitialize.cs" />
      <Compile Include="Assets\Script\App\Util\Battle\BattleCalculateManager.cs" />
      <Compile Include="Assets\Script\App\Util\Battle\BattleCharactersManager.cs" />
      <Compile Include="Assets\Script\App\Util\Battle\BattleManager.cs" />
      <Compile Include="Assets\Script\App\Util\Battle\BattleTilesManager.cs" />
      <Compile Include="Assets\Script\App\Util\Battle\CharacterAI.cs" />
+     <Compile Include="Assets\Script\App\Util\Battle\SkillManager.cs" />
      <Compile Include="Assets\Script\App\Util\BuyManager.cs" />
      <Compile Include="Assets\Script\App\Util\Cacher\AreaCacher.cs" />
      <Compile Include="Assets\Script\App\Util\Cacher\BaseMapCacher.cs" />
@@ -382,6 +384,7 @@
      <Compile Include="Assets\Script\ShEditor\FaceWindow.cs" />
      <Compile Include="Assets\Script\ShEditor\MakeAtlas.cs" />
      <Compile Include="Assets\Script\ShEditor\MAvatar.cs" />
+     <Compile Include="Assets\Script\ShEditor\ScenarioWindow.cs" />
      <Compile Include="Assets\Script\ShEditor\SEditorMaster.cs" />
      <Compile Include="Assets\UniWebView\Script\Helper\UniWebViewHelper.cs" />
      <Compile Include="Assets\UniWebView\Script\UniWebView.cs" />
@@ -402,7 +405,7 @@
      <None Include="Assets\Anima2D\Readme.txt" />
      <None Include="Assets\Script\Plugin\JsonFx\License.txt" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>/Users/zhanglubin/git/sh/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>/Users/zhanglubin/git/sh109/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -483,10 +486,10 @@
  <HintPath>/Applications/Unity/PlaybackEngines/Facebook/UnityEditor.Facebook.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="HOTween">
- <HintPath>/Users/zhanglubin/git/sh/Assets/HOTween/Plugins/HOTween.dll</HintPath>
+ <HintPath>/Users/zhanglubin/git/sh109/Assets/HOTween/Plugins/HOTween.dll</HintPath>
  </Reference>
  <Reference Include="HOTweenV1_Editor">
- <HintPath>/Users/zhanglubin/git/sh/Assets/HOTween/Plugins/Editor/HOTweenV1_Editor.dll</HintPath>
+ <HintPath>/Users/zhanglubin/git/sh109/Assets/HOTween/Plugins/Editor/HOTweenV1_Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>/Users/zhanglubin/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
@@ -512,7 +515,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{AADB1E11-D442-8F66-9EE6-B318F8435379}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{22E89DA5-3BF8-1A2D-34C6-CE936B4EE7FA}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

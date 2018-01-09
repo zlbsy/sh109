@@ -107,7 +107,6 @@ namespace App.View{
         public void ResetAll(App.Model.Master.MBaseMap baseMapMaster = null){
             if (baseMapMaster == null)
             {
-                Debug.LogError("ViewModel.MapId.Value = " + ViewModel.MapId.Value);
                 baseMapMaster = BaseMapCacher.Instance.Get(ViewModel.MapId.Value);
             }
             int widthCount = 0;

@@ -11,6 +11,7 @@ namespace App.Util.LSharp{
     public class LSharpLoad : LSharpBase<LSharpLoad> {
         public void Script(string[] arguments){
             string url = string.Format(ScenarioUrl, arguments[0]);
+            Debug.LogError("LSharpLoad " + url);
             SceneManager.CurrentScene.StartCoroutine(Global.SUser.Download(url,App.Util.Global.versions.scenario, (AssetBundle assetbundle)=>{
                 App.Model.Scriptable.ScenarioAsset.assetbundle = assetbundle;
                 List<string> script = App.Model.Scriptable.ScenarioAsset.Data.script;

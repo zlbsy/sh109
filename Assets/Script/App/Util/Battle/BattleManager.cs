@@ -296,19 +296,6 @@ namespace App.Util.Battle{
         /// 动作结束后处理
         /// </summary>
         public IEnumerator ActionOver(){
-            //Debug.LogError("ActionOver" + this.mCharacter.Master.name);
-            /*MSkill skill = this.mCharacter.CurrentSkill;
-            if (skill.Master.effect.special == App.Model.Master.SkillEffectSpecial.aid)
-            {
-                if (skill.Master.effect.enemy.count > 0 && skill.Master.effect.enemy.time == App.Model.Master.SkillEffectBegin.attack_end)
-                {
-                    AddAidToCharacter(skill.Master.effect.enemy);
-                }
-                else if(skill.Master.effect.self.count > 0 && skill.Master.effect.self.time == App.Model.Master.SkillEffectBegin.attack_end)
-                {
-                    AddAidToCharacter(skill.Master.effect.self);
-                }
-            }*/
             if (this.mCharacter.Target != null)
             {
                 if (this.mCharacter.Target.Hp > 0 && this.mCharacter.Target.attackEndEffects.Count > 0)
